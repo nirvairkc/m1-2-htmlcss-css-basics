@@ -118,24 +118,6 @@ right
 
 <center>🟢 - Complete workshop (100%) - 🟢</center>
 
----
-
-## Exercise 10 - Stretch
-
-Using CSS, create a button that animates on hover:
-
-![stretch-1 goal](./__lecture/assets/stretch-1-goal.gif)
-
-- It should color to a dark-blue when focused. It should **not** have the typical "focus ring" (blue outline on MacOS, dotted outline on Windows).
-- It should shrink when the mouse is held down on it.
-- It should be animated
-
-### Necessary properties/techniques
-
-- You'll need the `:active` and `:focus` pseudoselectors
-- You'll also need to use the `transform: scale` property for the size change, and the `transition` property for the animation.
-- You can disable the outline with `outline: none`, but **you should only do this if you have an alternative focus state**. That outline is very important for keyboard users, to know which element is focused.
-
 ### Resources
 
 - https://css-tricks.com/almanac/selectors/a/active/
@@ -155,3 +137,21 @@ Using CSS, create a button that animates on hover:
 - [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Flexbox.help](https://flexbox.help/)
 - [Flexbox.ninja](https://flexbox.ninja/)
+
+---
+
+## Exercise 10 - Stretch
+
+Using CSS, create a button that animates on hover:
+
+![stretch-1 goal](./__lecture/assets/stretch-1-goal.gif)
+
+- It should color to a dark-blue when focused. It should **not** have the typical "focus ring" (blue outline on MacOS, dotted outline on Windows).
+- It should shrink when the mouse is held down on it.
+- It should be animated
+
+### Necessary properties/techniques
+
+- You'll need the `:active` and `:focus` pseudoselectors
+- You'll also need to use the `transform: scale` property for the size change, and the `transition` property for the animation.
+- You can disable the outline with `outline: none`, but **you should only do this if you have an alternative focus state**. That outline is very important for keyboard users, to know which element is focused.
