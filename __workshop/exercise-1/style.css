@@ -1,3 +1,5 @@
-button {
+button { 
+  background-color: blue;
+  color: white;
   /* Styles here */
 }
